@@ -36,6 +36,13 @@ RUN npm install hubot-alias --save && npm install
 RUN npm install hubot-youtube --save && npm install
 RUN npm install hubot-cheers --save && npm install
 RUN npm install hubot-scripts --save && npm install
+RUN npm install hubot-ghe --save && npm install
+RUN npm install hubot-seen --save && npm install
+RUN npm install hubot-pager-me --save && npm install
+RUN npm install hubot-group-alias --save && npm install
+RUN npm install hubot-trello --save && npm install
+RUN npm install hubot-aws --save && npm install
+RUN npm install hubot-cloudfront --save && npm install
 
 # Activate some built-in scripts
 RUN npm install cheerio --save && npm install
