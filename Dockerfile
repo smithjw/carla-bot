@@ -24,7 +24,7 @@ USER	hubot
 WORKDIR /hubot
 
 # Install hubot
-RUN yo hubot --owner="James Smith <james@cultureamp.com>" --name="frank" --adapter=slack --defaults
+RUN yo hubot --owner="James Smith <james@cultureamp.com>" --name="carla" --adapter=slack --defaults
 
 # Some adapters / scripts
 RUN npm install hubot-slack --save && npm install
@@ -44,5 +44,5 @@ ADD hubot/external-scripts.json /hubot/
 ADD hubot/scripts /hubot/scripts/
 
 # And go
-CMD ["/bin/sh", "-c", "aws s3 cp --region ap-southeast-2 s3://bot-creds/frank/env.sh .; . ./env.sh; bin/hubot --adapter slack"]
+CMD ["/bin/sh", "-c", "aws s3 cp --region ap-southeast-2 s3://bot-creds/carla/env.sh .; . ./env.sh; bin/hubot --adapter slack"]
 # CMD bin/hubot -a slack
