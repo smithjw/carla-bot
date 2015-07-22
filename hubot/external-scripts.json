@@ -12,5 +12,10 @@
   "hubot-standup-alarm",
   "hubot-auth",
   "hubot-alias",
-  "hubot-cheers"
+  "hubot-cheers",
+  "hubot-seen",
+  "hubot-pager-me",
+  "hubot-group-alias",
+  "hubot-aws",
+  "hubot-cloudfront"
 ]
