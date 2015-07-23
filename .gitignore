@@ -1,4 +1,4 @@
 *.txt
 env.sh
 .DS_Store
-
+store/
