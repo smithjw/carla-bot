@@ -13,5 +13,6 @@
   "hubot-pager-me",
   "hubot-group-alias",
   "hubot-aws",
-  "hubot-cloudfront"
+  "hubot-cloudfront",
+  "hubot-google"
 ]
