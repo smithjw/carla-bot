@@ -1,6 +1,6 @@
 # Build image
 docker login -e $DOCKER_EMAIL -u $DOCKER_USER -p $DOCKER_PASS
-docker build -t smithjw/frank-bot:$BUILDKITE_COMMIT .
+docker build -t smithjw/carla-bot:$BUILDKITE_COMMIT .
 
 # Run container with specs
 # docker run -e HUBOT_SLACK_TOKEN=xoxb-7834657472-32TecFyNwzjI9UcsMgoTrz3I -d smithjw/frank-bot:$BUILDKITE_COMMIT
