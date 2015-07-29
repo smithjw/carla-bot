@@ -43,6 +43,7 @@ RUN npm install hubot-group-alias --save && npm install
 RUN npm install hubot-trello --save && npm install
 RUN npm install hubot-aws --save && npm install
 RUN npm install hubot-cloudfront --save && npm install
+RUN npm install hubot-google --save && npm install
 
 # Activate some built-in scripts
 RUN npm install cheerio --save && npm install
