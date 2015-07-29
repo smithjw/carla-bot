@@ -11,7 +11,7 @@ docker build -t smithjw/carla-bot:$BUILDKITE_COMMIT .
 
 
 # Tag image with current branch name and push when specs are green
-docker tag -f smithjw/carla-bot:$BUILDKITE_COMMIT smithjw/carla-bot:$BUILDKITE_BRANCH
-docker push smithjw/carla-bot:$BUILDKITE_BRANCH
+docker tag -f smithjw/carla-bot:$BUILDKITE_COMMIT smithjw/carla-bot:latest
+docker push smithjw/carla-bot:latest
 
 # Testing
