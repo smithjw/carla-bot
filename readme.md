@@ -3,7 +3,7 @@ Carla HuBot
 
 Idea: Setup HuBot inside a Docker container and run it on AWS with the ability to automatically build and deploy with BuildKite.
 
-[![Build status](https://badge.buildkite.com/d3efbf8e17da885df4c2cbbb9f1bd0406384bb6d7c9af68657.svg)](https://buildkite.com/ca/building-frank)
+[![Build status](https://badge.buildkite.com/1d12780ae6f5ab719d68804099ca6752b27faec90a247f792b.svg)](https://buildkite.com/ca/rebuild-carla)
 
 ### Deploy manual to AWS ECS
 1. Setup new EC2 Container Instance as described [here](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_GetStarted.html)
