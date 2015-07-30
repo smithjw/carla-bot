@@ -4,7 +4,6 @@
   "hubot-diagnostics",
   "hubot-google-translate",
   "hubot-maps",
-  "hubot-redis-brain",
   "hubot-youtube",
   "hubot-standup-alarm",
   "hubot-auth",
@@ -14,5 +13,6 @@
   "hubot-group-alias",
   "hubot-aws",
   "hubot-cloudfront",
+  "hubot-s3-brain",
   "hubot-google"
 ]
